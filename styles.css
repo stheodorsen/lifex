@@ -1,0 +1,117 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	background-color: #332E3D;
+	color: white;
+}
+
+h1 {
+	font-size: 68px;
+	font-weight: 300;
+	text-align: right;
+	float: right;
+	margin: 0;
+}
+h3 {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 36px;
+	padding: 0;
+	margin-top: 0;
+}
+a {
+	color: #000;
+}
+
+.logo {
+	text-align: center;
+	padding-bottom: 40px;
+	// position: absolute;
+	// left: 50%;
+	// top: 80px;
+	// width: 100px;
+}
+
+ #logo {
+	width: 100px;
+}
+
+.button {
+	background-color: #6619FF;
+	border: 2px solid #6619FF;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 0 3px 3px 0;
+	font-size: 14px;
+	float: left;
+	transition: background-color 1s
+}
+.button:hover {
+	background-color: #5500FF;
+	transition: background-color 1s;
+}
+
+input {
+	padding: 10px;
+	font-size: 14px;
+	margin-bottom: 10px;
+
+}
+
+.mc-field-group {
+	float: left;
+}
+
+.header {
+	height: 380px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.header .bg {
+	height: 380px;
+
+}
+.wrapper {
+	padding-top: 12%;
+	width: 80%;
+	margin: 0 auto;
+	left: 10%;
+}
+
+.title {
+	width: calc(50% - 45px);
+	float: left;
+	border-right: 1px rgba(255, 255, 255, 0.5) solid;
+	padding-right: 40px;
+	height: 100%;
+}
+
+.content {
+	width: calc(50% - 45px);
+	border-left: 0px #F5F5F5 solid;
+	padding-left: 40px;
+	float: left;
+	height: 100%;
+}
+
+@media only screen and (max-width : 767px) {
+ 	.title, .content {
+ 		width: 100%;
+ 		float: none;
+ 		padding: 0;	
+ 	}
+ 	h1 {
+ 		text-align: left;
+ 		padding-bottom: 20px;
+ 	}
+ }
+
+@media only screen and (max-width : 500px) {
+	h1 {
+		font-size: 34px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+}
