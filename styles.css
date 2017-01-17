@@ -1,3 +1,6 @@
+
+
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -25,16 +28,19 @@ a {
 
 .logo {
 	text-align: center;
-	padding-bottom: 40px;
-	// position: absolute;
-	// left: 50%;
-	// top: 80px;
-	// width: 100px;
+	padding-bottom: 100px;
+	position: relative;
+	margin: 0;
+	text-align: center;
 }
 
  #logo {
 	width: 100px;
+	height: 53px;
+	position: relative;
 }
+
+
 
 .button {
 	background-color: #6619FF;
@@ -73,7 +79,7 @@ input {
 
 }
 .wrapper {
-	padding-top: 12%;
+	padding-top: 10%;
 	width: 80%;
 	margin: 0 auto;
 	left: 10%;
