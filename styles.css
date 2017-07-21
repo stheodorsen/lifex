@@ -1,0 +1,127 @@
+
+
+
+body {
+	font-weight: 300;
+	background-color: #332E3D;
+	color: white;
+}
+
+h1 {
+	font-size: 62px;
+	font-weight: 400;
+	text-align: right;
+	float: right;
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+
+}
+h3 {
+	font-weight: 200;
+	font-size: 24px;
+	line-height: 36px;
+	padding: 0;
+	margin-top: 0;
+	font-family: 'Taviraj', serif;
+
+}
+a {
+	color: #000;
+}
+
+.logo {
+	text-align: center;
+	padding-bottom: 100px;
+	position: relative;
+	margin: 0;
+	text-align: center;
+}
+
+ #logo {
+	width: 100px;
+	height: 53px;
+	position: relative;
+}
+
+
+
+.button {
+	background-color: #6619FF;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 0 30px 30px 0;
+	font-size: 14px;
+	float: left;
+	transition: background-color 1s
+}
+.button:hover {
+	background-color: #5500FF;
+	transition: background-color 1s;
+}
+
+input {
+	padding: 10px;
+	font-size: 14px;
+	margin-bottom: 10px;
+	border:none;
+	border-radius: 30px 0 0 30px ;
+}
+
+.mc-field-group {
+	float: left;
+}
+
+.header {
+	height: 380px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.header .bg {
+	height: 380px;
+
+}
+.wrapper {
+	padding-top: 10%;
+	width: 80%;
+	margin: 0 auto;
+	left: 10%;
+}
+
+.title {
+	width: calc(50% - 45px);
+	float: left;
+	border-right: 1px rgba(255, 255, 255, 0.5) solid;
+	padding-right: 40px;
+	height: 100%;
+}
+
+.content {
+	width: calc(50% - 45px);
+	border-left: 0px #F5F5F5 solid;
+	padding-left: 40px;
+	float: left;
+	height: 100%;
+}
+
+@media only screen and (max-width : 767px) {
+ 	.title, .content {
+ 		width: 100%;
+ 		float: none;
+ 		padding: 0;	
+ 	}
+ 	h1 {
+ 		font-family: 'Libre Baskerville', serif;
+ 		text-align: left;
+ 		padding-bottom: 20px;
+ 	}
+ }
+
+@media only screen and (max-width : 500px) {
+	h1 {
+		font-size: 34px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+}
